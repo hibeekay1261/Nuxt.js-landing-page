@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+body {
+    /* overflow-x: hidden; */
+}
+
+.jumbotron{
+    /* margin-top: 10rem; */
+    padding-top: 10rem;
+    height: 100vh;
+    background-color: #001E26;
+} 
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        padding-top: 10rem;
+        height: 70vh;
+        background-color: #001E26;
+    }
+  }
+
+
+.alert {
+    background-color: #004D3D;
+    /* width: 32rem; */
+   
+}
+.btn-success{
+    background-color:#00DC82;
+}
+
+.mountain-bg {
+    background-color: #E5F9FF;
+    /* min-height: 70vh; */
+   
+}
+
+.mountain_p {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.dark-mountain{
+    background-color: #041E26;
+    min-height: 60vh;
+}
+
+.blended-bg{
+    background-color: #0B3543;
+}
+
+
+.card-images img {
+    height: 350px;
+    border-radius: 10px;
+}

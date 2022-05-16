@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <title>Nuxt Js landing page</title>
+</head>
+
+<body>
+
+  <nav id="nav1"
+    class=" header_background navbar-invert fixed-top transparent navbar-expand-lg navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">NuxtJS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Discover
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Learn
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li class="d-flex">
+                <img class="img-fluid"style="width: 50px; height: 50px;"src="/Nuxtjsassets/campfire-illustration-big (2).svg" alt="">
+                <a class="dropdown-item" href="#">Action</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Explore
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Community
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="background-gems">
+    <!-- <img class="gem_1" src="/Nuxtjsassets/gem-1.svg" alt=""> -->
+  </div>
+  <div class="background-gems"></div>
+  <div class="background-gems"></div>
+  <div class="background-gems"></div>
+  <div class="background-gems"></div>
+  <div class="background-gems"></div>
+  <!-- jumbotron sction -->
+  <div class="jumbotron partner_bg mt-5 text-light " >
+    <div class="container d-flex justify-content-center align-items-center flex-column">
+      <div class="alert alert-success">
+        <strong>Announcement: Nuxt 3 Release Candidate is out!!</strong> 
+      </div>
+     
+      <h1 class="mt-5 ">The Intuitive Vue
+        Framework</h1>
+      <p class="w-60">
+        Build your next Vue.js application with confidence using Nuxt.
+        An open source framework making web development simple and powerful.
+      </p>
+      
+    </div>
+    <div class="col d-flex mt-5 justify-content-center">
+      <a class="btn btn-default align-items-center  text-success text-light" href="#"><i class="bi bi-github p-3"></i>39k+ Github
+        Stars</a>
+      <a class="btn btn-success text-color " href="#">Get Started </a>
+    </div>
+
+  </div>
+
+
+<!-- Feature section -->
+<div class="container text-center ">
+    <div class="row m-5">
+      <div class="col text-center mt-5">
+        <h5>Features</h5>
+        <h1>Intuitive <span class="text-success">D</span>eveloper E<span class="text-success">x</span>perience
+        </h1>
+        <p>Nuxt is shipped with plenty of features to boost developer productivity and the end user experience.
+        </p>
+      </div>
+    </div>
+    <div class="row align-items-center ">
+      <div class="col-md-3">
+        <img class="mb-3
+        " src="/Nuxtjsassets/zero-config (1).svg" alt="">
+        <h5>Zero configuration</h5>
+         <p>Switch between static-site generation or on-demand server rendering.</p>
+    
+    
+      </div>
+    
+      <div class="col-md-3">
+        <img class="mb-3
+        " src="/Nuxtjsassets/file-system-routing.svg" alt="">
+        <h5>File-Routing System</h5>
+        <p>Automatic routing and code-splitting for every page.
+
+        </p>
+      </div>
+      <div class="col-md-3 ">
+        <img class="mb-3
+        " src="/Nuxtjsassets/hybrid.svg" alt=""><h5>Rendering Modes</h5>
+        <p>Switch between static-site generation or on-demand server rendering.
+
+        </p>
+      </div>
+      <div class="col-md-3">
+        <img class="mb-3
+        " src="/Nuxtjsassets/fetch.svg" alt=""><h5>Data Fetching</h5>
+        <p>Fetch your content from any source in your Vue components, SSR ready.
+
+        </p>
+      </div>
+      <div class="col-md-3">
+        <img class="mb-3
+        " src="/Nuxtjsassets/conventions.svg" alt=""><h5>Strong Conventions</h5>
+        <p>Efficient teamwork with a strong directory structure and conventions.
+
+        </p>
+      </div>
+      <div class="col-md-3">
+        <img class="mb-3
+        " src="/Nuxtjsassets/seo.svg" alt=""><h5>Seo  Friendly</h5><p>Meta tag management and faster time-to-content for great indexing.
+
+        </p>
+      </div>
+      <div class="col-md-3">
+        <img  class="mb-3
+        " src="/Nuxtjsassets/auto-inject.svg" alt=""><h5> Components Auto-import</h5><p>Use your components, Nuxt will import them with smart code-splitting.
+
+        </p>
+      </div>
+      <div class="col-md-3">
+        <img class="mb-3
+        " src="/Nuxtjsassets/modular.svg" alt=""><h5>Module Ecosystem</h5><p>Extend your app with 160+ Nuxt modules and create your own.
+
+        </p>
+      </div>
+    </div>
+</div>
+
+<!-- mountain section -->
+<img class="img-fluid"  src="/Nuxtjsassets/discover-mountain (1).svg" alt="">
+<section class="mountain container-fluid">
+  <div class="mountain-img">
+  
+  </div>
+  
+  <div class="row  mountain-bg">
+    <div class="col text-center mt-5">
+      <h5>Partners</h5>
+      <h1>Sustainable <span class="text-success"><em>Development</em></span>
+      </h1>
+      <p class="mountain_p">Nuxt development is carried out by passionate developers, but the amount of effort needed to maintain and develop new features is not sustainable without proper financial backing. We are thankful for our sponsors and partners, who help make Nuxt possible.
+  
+  
+      </p>
+    </div>
+  </div>
+
+  <div class="row mountain-bg text-center p-5">
+    <div class="col-md-6  pr-2 "><img class="mb-3"src="/Nuxtjsassets/technology.svg" alt="">
+      <h5>Technology Partners</h5>
+      <p>Agency partners are trusted web and consulting agencies that can provide Nuxt development and support for your projects.</p>
+      <button type="button" class="btn btn-outline mt-4 border border-1 border-dark">Discover our technology partners</button>
+
+    </div>
+    <div class="col-md-6 mt-4 pr-2"><img class="mb-3 " src="/Nuxtjsassets/agency.svg" alt="">
+      <h5>Agency Partners</h5><p>Agency partners are trusted web and consulting agencies that can provide Nuxt development and support for your projects.
+        
+
+      </p>
+      <button type="button" class="btn btn-outline border border-1 border-dark">Find a nuxt Expert</button>
+
+      
+    </div>
+    <div class="text-center">
+      <a type="button" class="text-center mt-4 btn btn-success ">Become a Partner</a>
+    </div>
+   
+
+    
+
+  </div>
+
+
+</section>
+
+
+
+<img class="img-fluid mountain-bg"  src="/Nuxtjsassets/partners-illustration.svg" alt="">
+
+<div class="container-fluid dark-mountain text-light text-center">
+  <div class="row  ">
+    <div class="col text-center mt-5">
+      <h5 class="text-mute">Learn</h5>
+      <h1>Follow our  <span class="text-success mt-2"><em>Guides</em></span> 
+      </h1>
+      <p>Nuxt is shipped with plenty of features to boost developer productivity and the end user experience.
+      </p>
+    </div>
+  </div>
+  
+    <div class="row dark-mountain mt-5">
+      <div class="col-md-3">
+        <img class="mb-3" src="/Nuxtjsassets/gem-1.svg" alt="">
+      <h5>Documentation</h5>Watch a complete series of videos to learn Nuxt with our partner Vue school</div>
+      <div class="col-md-3"><img class="mb-3" src="/Nuxtjsassets/gem-1.svg" alt="">
+      <h5>Examples</h5>Watch a complete series of videos to learn Nuxt with our partner Vue school</div>
+      <div class="col-md-3"><img  class="mb-3" src="/Nuxtjsassets/gem-1.svg" alt="">
+      <h5>Releases</h5>Watch a complete series of videos to learn Nuxt with our partner Vue school</div>
+      <div class="col-md-3"><img  class="mb-3" src="/Nuxtjsassets/gem-1.svg" alt="">
+        <h5>Master Courses</h5>Watch a complete series of videos to learn Nuxt with our partner Vue school</div>
+    </div>
+ 
+</div>
+
+<div class="container text-center mt-5">
+  <div class="row">
+    <div class="col">
+      <h5>Explore
+      </h5>
+      <h2>Moving forward? So much to <span class="text-success"><em>Explore</em></span>
+      </h2>
+      <p>Discover powerful modules, integrate with your favorite providers and start quickly with themes.
+
+      </p>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col-md-4"><img src="/Nuxtjsassets/gem-explore-1 (1).svg" alt="">
+    <h4>Explore</h4>
+  <p>Extend and automate your workflow by using deployments for your favourite tools</p></div>
+    <div class="col-md-4"><img src="/Nuxtjsassets/gem-explore-2.svg" alt="">
+      <h4>Modules</h4>
+      <p>Discover our list of modules to supercharge your Nuxt project Created by the Nuxt team and community.</p></div>
+    <div class="col-md-4"><img src="/Nuxtjsassets/gem-explore-3.svg" alt="">
+    <h4>Theme</h4>
+  <p>See how a real world application is build using the Nuxt stack with the themes build by out partners</p>
+</div>
+  </div>
+</div>
+
+
+
+<img  class="img-fluid  "src="/Nuxtjsassets/campfire-illustration-big (1).svg" alt="">
+<div class="container-fluid text-light blended-bg">
+  <div class="row">
+    <div class="col">
+      <h5 class="text-success">Community
+      </h5>
+      <h2>sharing is <span class="text-success"><em>Caring</em></span>
+      </h2>
+      <p>Discover articles from the framework team and community about Nuxt. Tips and tricks included!
+
+
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid blended-bg text-light">
+  <div class="row card-images ">
+    <div class="col-md-6 my-3">
+      <img  class="img-fluid "src="/Nuxtjsassets/b07ac2.jpeg" alt="">
+      <h4 class="text-success">Announcement</h4>
+      <h3>Nuxt Static Performance</h3>
+      <p>With Nuxt version 2.13, the full-static mode has been introduced. In addition...
+      </p>
+      <a class="text-success"href="">Get info  ></a>
+    </div>
+    <div class="col-md-6 my-3">
+      <img class="img-fluid"src="/Nuxtjsassets/0635bc.png" alt="">
+      
+      <h4 class="text-success">Announcement</h4>
+      <h3>Nuxt + Strapi + Composition API</h3>
+      <p>With Nuxt version 2.13, the full-static mode has been introduced. In addition...
+      </p>
+      <a class="text-success"href="">Get info ></a> 
+    </div>
+  </div>
+</div>
+
+<img class="img-fluid"src="/Nuxtjsassets/home_footer.svg" alt="">
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
